@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HelloMudroidActivity!</string>
+    <string name="app_name">Hello Mudroid</string>
+    <string name="mylocation">My Location</string>
+    <string name="waiting_for_location">Waiting for location</string>
+    <!-- debug key INSERT YOURS BELOW OR YOU MAP WONT SHOW!!-->
+    <string name="maps_api_key">INSERT YOUR MAP KEY HERE</string>
+
+</resources>
