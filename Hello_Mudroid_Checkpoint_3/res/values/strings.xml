@@ -5,7 +5,8 @@
     <string name="app_name">Hello Mudroid</string>
     <string name="mylocation">My Location</string>
     <string name="waiting_for_location">Waiting for location</string>
-    <!-- debug key INSERT YOURS BELOW OR YOU MAP WONT SHOW!!-->
-    <string name="maps_api_key">INSERT YOUR MAP KEY HERE</string>
+    <!-- debug key INSERT YOUR OWN debug.keystore KEY BELOW OR YOU MAP WONT SHOW!!-->
+    <!-- debug key - see http://code.google.com/android/add-ons/google-apis/mapkey.html for instructions-->
+    <string name="maps_api_key">INSERT YOUR OWN MAP KEY HERE</string>
 
 </resources>
