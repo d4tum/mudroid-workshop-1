@@ -122,12 +122,11 @@ ADD THESE PERMISSIONS to AndroidManifest.xml (otherwise myLocationOverlay and ma
 Run... on both 2.1 and 4.0.3
 Now we should see a map with the ABS actionbar
 
-Go to HelloMudroidActivity.java to add extra functionality to the map:
+Go to HelloMudroidActivity.java to add extra functionality to the map.
 We'll edit the file to:
-
-	* get a handle on the map view to
-	* add zoom controls
-	* implement my location overlay
+* get a handle on the map view to
+* add zoom controls
+* implement my location overlay
 
 Take a quick tour of the Activity life cycle
 http://developer.android.com/reference/android/app/Activity.html
