@@ -37,10 +37,12 @@ Edit AndroidManifest.xml min,max and target sdk versions to get it to run 2.1 - 
 
 with:
 
+```xml
 <uses-sdk
     android:maxSdkVersion="15"
     android:minSdkVersion="7"
     android:targetSdkVersion="15" />
+```
 
 Run... on both 2.1 and 4.0.3
 
@@ -79,19 +81,23 @@ Checkpoint 2 - Adding a MapView to the layout and Activity
 
 Delete:
 
+```xml
 <TextView
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="@string/hello" />
+```
 
 Add in it's place:
 
+```xml
 <com.google.android.maps.MapView
     android:id="@+id/map"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:apiKey="@string/maps_api_key"
     android:clickable="true" />
+```xml
 
 2. Open /res/values/strings.xml - and add your debug key.
 	If you don't have a debug key yet, follow the instructions from the section:
@@ -102,9 +108,11 @@ NOTE: MAKE SURE YOU ADD IT TO strings.xml OR YOUR MAP WILL NOT APPEAR!!!
 
 ADD THESE PERMISSIONS to AndroidManifest.xml (otherwise myLocationOverlay and maps WILL NOT WORK):
 
+```xml
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.INTERNET" />
+```xml
 
 Run... on both 2.1 and 4.0.3
 Now we should see a map with the ABS actionbar
@@ -145,12 +153,14 @@ Now we'll change the actionbar to be semi-transparent
 10. Lastly make the app use hw accel for 3.0+ and comapible with all types of screen sizes
 by adding to AndroidManifest.xml:
 
+```xml
 <supports-screens
     android:anyDensity="true"
     android:largeScreens="true"
     android:normalScreens="true"
     android:smallScreens="true"
     android:xlargeScreens="true" />
+```xml
 
 within the manifest node
 and within the application tag:
