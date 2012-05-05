@@ -46,19 +46,20 @@ with:
 
 Run... on both 2.1 and 4.0.3
 
-Checkpoint 1 - adding the actionbar design pattern (using ActionBarSherlock - ABS)
-----------------------------------------------------------------------------------
-ABS allows for a consistent UI from sdk 7 -> 15: 
+Checkpoint 1 - Adding a ActionBarSherlock as a Library Project for the actionbar design pattern
+-----------------------------------------------------------------------------------------------
+ABS allows for a consistent UI across sdk's 7 to 15: 
 Download the ABS 4.0 zip from the home page http://actionbarsherlock.com/index.html
 Click More... to get the maps jar plugin, we'll need this for our map.
 Unzip the 4.0 zip, maybe in documents so you have permission to access it.
 At the site you'll also find sample apks, apps, a FAQ, usage tips and a link to the google group for support etc.
 
-Go back to eclipse and right click the workspace
-1. New Android Project
-2. Name it whatever you like, I do this: lib_abs
+Go back to eclipse and right click your projects root folder then:
+
+1. Choose "New Android Project"
+2. Name it whatever you like, I've named it "lib_abs"
 3. Check create project from existing source
-4. Location: browse.. go to 4.0/library, then click open
+4. Location: browse.. go to where unzipped the ActioBarSherlock zip file -> 4.0/library, then click open.
 5. Finish.
 
 6. Right click the project - Properties -> Android then under the Library section, click  Add to add lib_abs as a library to our project. Click Apply, then OK
