@@ -82,7 +82,7 @@ Run... on both 2.1 and 4.0.3
 
 Checkpoint 2 - Adding a MapView to the layout and Activity
 ----------------------------------------------------------
-1. Edit /res/layout/main.xml - to add a MapView
+Edit /res/layout/main.xml - to add a MapView
 
 Delete:
 
@@ -104,7 +104,7 @@ Add in it's place:
     android:clickable="true" />
 ```
 
-2. Open /res/values/strings.xml - and add your debug key.
+Open /res/values/strings.xml - and add your debug key.
 	If you don't have a debug key yet, follow the instructions from the section:
 	"Getting the MD5 Fingerprint of the SDK Debug Certificate" at:
 	http://code.google.com/android/add-ons/google-apis/mapkey.html
@@ -122,11 +122,12 @@ ADD THESE PERMISSIONS to AndroidManifest.xml (otherwise myLocationOverlay and ma
 Run... on both 2.1 and 4.0.3
 Now we should see a map with the ABS actionbar
 
-Go to HelloMudroidActivity.java to add extra functionality to the map.
-3. We'll edit the file to
-	A. get a handle on the map view to
-	B. add zoom controls
-	C. implement my location overlay
+Go to HelloMudroidActivity.java to add extra functionality to the map:
+We'll edit the file to:
+
+	* get a handle on the map view to
+	* add zoom controls
+	* implement my location overlay
 
 Take a quick tour of the Activity life cycle
 http://developer.android.com/reference/android/app/Activity.html
