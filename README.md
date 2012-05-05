@@ -4,12 +4,12 @@ Created by Matthew Browne for Mudroid, the Monash University Android Community.
 Last edited 05/05/2012.
 
 
-*PROJECT:*	Hello Mudroid								
-*AIM:* 		To create an Android App that looks the same on a phone and tablet and displays a map that has a zoom in on my location feature that uses the Actionbar Design Pattern. http://developer.android.com/design/patterns/actionbar.html
-*COMPATIBLE	Android versions:* 2.1 to 4.0.3 (which is sdk version 7 to 15)
+###PROJECT:		Hello Mudroid								
+###AIM: 		To create an Android App that looks the same on a phone and tablet and displays a map that has a zoom in on my location feature that uses the Actionbar Design Pattern. http://developer.android.com/design/patterns/actionbar.html
+###COMPATIBLE Android versions: 2.1 to 4.0.3 (which is sdk version 7 to 15)
 ![](https://lh5.googleusercontent.com/-EuR0lCDA1TY/T6ScGKYYBNI/AAAAAAAAGJM/nqk7ra56sX8/s800/Screenshot_2012-03-29-13-18-43.png "Tablet and Phone")
-Preparation
------------
+##Preparation
+
 * Setup Eclipse IDE and ADT plugin http://developer.android.com/sdk/eclipse-adt.html
 * Through the Android SDK Manager in the menu bar in Eclipse install under:
 	- Tools:
@@ -26,8 +26,8 @@ Preparation
 
 Now we are ready to start making our app
 
-Checkpoint 0 - Setting up the project
--------------------------------------
+##Checkpoint 0 - Setting up the project
+
 1. Create Android Project Named : 	Hello Mudroid
 2. Build Target SDK: 				Google APIs 4.0.3
 3. Package Name:					com.mudroid.hellomudroid
@@ -46,8 +46,8 @@ with:
 
 Run... on both 2.1 and 4.0.3
 
-Checkpoint 1 - Adding ActionBarSherlock as a Library Project
-------------------------------------------------------------
+##Checkpoint 1 - Adding ActionBarSherlock as a Library Project
+
 ABS allows for a consistent UI across sdk's 7 to 15: 
 
 1. Download the ABS 4.0 zip from the home page http://actionbarsherlock.com/index.html
@@ -80,8 +80,8 @@ under the Application node
 
 Run... on both 2.1 and 4.0.3
 
-Checkpoint 2 - Adding a MapView to the layout and Activity
-----------------------------------------------------------
+##Checkpoint 2 - Adding a MapView to the layout and Activity
+
 Edit /res/layout/main.xml - to add a MapView
 
 Delete:
@@ -134,8 +134,8 @@ onCreate, onPause and onResume are the most important methods to an Activity
 
 Run... on both 2.1 and 4.0.3
 
-Checkpoint 3 - Adjusting the ActionBar to improve the UI of the app and add final tweaks for hardware acceleration and different screen sizes
----------------------------------------------------------------------------------------------------------------------------------------------
+##Checkpoint 3 - Adjusting the ActionBar to improve the UI of the app and add final tweaks for hardware acceleration and different screen sizes
+
 Adding a see through black overlay actionbar and a find my location icon:
 
 1. Create a my location icon for all screen densities at: http://code.google.com/p/android-ui-utils/
