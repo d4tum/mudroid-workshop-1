@@ -49,29 +49,34 @@ Run... on both 2.1 and 4.0.3
 Checkpoint 1 - Adding a ActionBarSherlock as a Library Project for the actionbar design pattern
 -----------------------------------------------------------------------------------------------
 ABS allows for a consistent UI across sdk's 7 to 15: 
-Download the ABS 4.0 zip from the home page http://actionbarsherlock.com/index.html
-Click More... to get the maps jar plugin, we'll need this for our map.
-Unzip the 4.0 zip, maybe in documents so you have permission to access it.
-At the site you'll also find sample apks, apps, a FAQ, usage tips and a link to the google group for support etc.
+
+1. Download the ABS 4.0 zip from the home page http://actionbarsherlock.com/index.html
+2. Click More... to get the maps jar plugin, we'll need this for our map.
+3. Unzip the 4.0 zip, maybe in documents so you have permission to access it.
+4. At the site you'll also find sample apks, apps, a FAQ, usage tips and a link to the google group for support etc.
 
 Go back to eclipse and right click your projects root folder then:
 
-1. Choose "New Android Project"
-2. Name it whatever you like, I've named it "lib_abs"
-3. Check create project from existing source
-4. Location: browse.. go to where unzipped the ActioBarSherlock zip file -> 4.0/library, then click open.
-5. Finish.
+5. Choose "New Android Project"
+6. Name it whatever you like, I've named it "lib_abs"
+7. Check create project from existing source
+8. Location: browse.. go to where unzipped the ActioBarSherlock zip file -> 4.0/library, then click open.
+9. Finish.
 
-6. Right click the project - Properties -> Android then under the Library section, click  Add to add lib_abs as a library to our project. Click Apply, then OK
-7. create /libs folder under in the Hello Mudroid folder
-8. Drag and drop the maps jar into the /libs folder
+10. Right click the project - Properties -> Android then under the Library section, click  Add to add lib_abs as a library to our project. Click Apply, then OK
+11. create /libs folder under in the Hello Mudroid folder
+12. Drag and drop the maps jar into the /libs folder
 	NOTE: If there are problems getting this to work on ADT 17, check out
 	http://android.foxykeep.com/dev/how-to-fix-the-classdefnotfounderror-with-adt-17
-9. Change the source file HelloMudroidActivity superclass form Activity to SherlockMapActivity
-10. Add unimplemented method to the HelloMudroidActivity - isRouteDisplayed();
-11. Add to AndroidManifest.xml Theme.Sherlock:
+13. Change the source file HelloMudroidActivity superclass form Activity to SherlockMapActivity
+14. Add unimplemented method to the HelloMudroidActivity - isRouteDisplayed();
+15. Add to AndroidManifest.xml Theme.Sherlock:
 
-android:theme="@style/Theme.Sherlock" under the Application node
+```xml
+android:theme="@style/Theme.Sherlock" 
+```
+
+under the Application node
 
 Run... on both 2.1 and 4.0.3
 
