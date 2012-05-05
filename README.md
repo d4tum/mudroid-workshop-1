@@ -97,7 +97,7 @@ Add in it's place:
     android:layout_height="fill_parent"
     android:apiKey="@string/maps_api_key"
     android:clickable="true" />
-```xml
+```
 
 2. Open /res/values/strings.xml - and add your debug key.
 	If you don't have a debug key yet, follow the instructions from the section:
@@ -112,7 +112,7 @@ ADD THESE PERMISSIONS to AndroidManifest.xml (otherwise myLocationOverlay and ma
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.INTERNET" />
-```xml
+```
 
 Run... on both 2.1 and 4.0.3
 Now we should see a map with the ABS actionbar
@@ -160,7 +160,7 @@ by adding to AndroidManifest.xml:
     android:normalScreens="true"
     android:smallScreens="true"
     android:xlargeScreens="true" />
-```xml
+```
 
 within the manifest node
 and within the application tag:
