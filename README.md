@@ -1,13 +1,12 @@
 mudroid-workshop-1
 ==================
-Created by Matthew Browne for Mudroid, the Monash University Android Community
-Last Edited 05/05/2012 
+Created by Matthew Browne for Mudroid, the Monash University Android Community.
+Last edited 05/05/2012.
 
 
-PROJECT: Hello Mudroid								
-AIM: To create an Android App that looks the same on a phone and tablet and displays a map that has a zoom in on my location feature that uses the Actionbar Design Pattern. http://developer.android.com/design/patterns/actionbar.html
-
-COMPATIBLE Android versions: 2.1 to 4.0.3 (which is sdk version 7 to 15)
+######PROJECT:######	Hello Mudroid								
+######AIM:###### 		To create an Android App that looks the same on a phone and tablet and displays a map that has a zoom in on my location feature that uses the Actionbar Design Pattern. http://developer.android.com/design/patterns/actionbar.html
+######COMPATIBLE###### 	Android versions: 2.1 to 4.0.3 (which is sdk version 7 to 15)
 ![](https://lh5.googleusercontent.com/-EuR0lCDA1TY/T6ScGKYYBNI/AAAAAAAAGJM/nqk7ra56sX8/s800/Screenshot_2012-03-29-13-18-43.png "Tablet and Phone")
 Preparation
 -----------
@@ -47,8 +46,8 @@ with:
 
 Run... on both 2.1 and 4.0.3
 
-Checkpoint 1 - Adding a ActionBarSherlock as a Library Project for the actionbar design pattern
------------------------------------------------------------------------------------------------
+Checkpoint 1 - Adding ActionBarSherlock as a Library Project
+------------------------------------------------------------
 ABS allows for a consistent UI across sdk's 7 to 15: 
 
 1. Download the ABS 4.0 zip from the home page http://actionbarsherlock.com/index.html
