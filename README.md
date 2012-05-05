@@ -8,6 +8,8 @@ PROJECT: Hello Mudroid
 AIM: To create an Android app that shows a map with the function of finding the users location and that uses the actionbar design Pattern.
 COMPATIBLE Android versions: 2.1 -> 4.0.3 (which is sdk version 7 -> 15)
 
+![](https://picasaweb.google.com/lh/photo/m1vDv_7LGQgIBm1mTEPKTH9bbIjHErcbK2sIQUNm9_Q?feat=directlink "Phone")
+
 Preparation
 -----------
 * Setup Eclipse IDE and ADT plugin http://developer.android.com/sdk/eclipse-adt.html
