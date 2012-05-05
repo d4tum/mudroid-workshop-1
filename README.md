@@ -7,8 +7,9 @@ Last Edited 24/03/2012
 PROJECT: Hello Mudroid								
 AIM: To create an Android app that shows a map with the function of finding the users location and that uses the actionbar design Pattern.
 COMPATIBLE Android versions: 2.1 -> 4.0.3 (which is sdk version 7 -> 15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Preparation:
+
+Preparation
+-----------
 - Setup Eclipse IDE and ADT plugin http://developer.android.com/sdk/eclipse-adt.html
 - Through the Android SDK Manager in the menu bar in Eclipse install under:
 	- Tools:
@@ -24,8 +25,9 @@ Preparation:
 - Create sdk target 7 (android 2.1 eclair) and 15 (android 4.0.3 ICS) virtual devices through ADT (if you don't have those on any physical device)
 
 Now we are ready to start making our app
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Checkpoint 0 - Setting up the project:
+
+Checkpoint 0 - Setting up the project
+-------------------------------------
 1. Create Android Project Named : 	Hello Mudroid
 2. Build Target SDK: 				Google APIs 4.0.3
 3. Package Name:					com.mudroid.hellomudroid
@@ -41,8 +43,9 @@ with:
     android:targetSdkVersion="15" />
 
 Run... on both 2.1 and 4.0.3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Checkpoint 1 - adding the actionbar design pattern (using ActionBarSherlock - ABS). 
+
+Checkpoint 1 - adding the actionbar design pattern (using ActionBarSherlock - ABS)
+----------------------------------------------------------------------------------
 ABS allows for a consistent UI from sdk 7 -> 15:
 http://actionbarsherlock.com/index.html
 Download the ABS 4.0 zip from the home page. 
@@ -69,9 +72,10 @@ Go back to eclipse and right click the workspace
 android:theme="@style/Theme.Sherlock" under the Application node
 
 Run... on both 2.1 and 4.0.3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Checkpoint 2 - adding a mapview to the layout and activity
-1. Edit /res/layout/main.xml - to add a mapview
+
+Checkpoint 2 - Adding a MapView to the layout and Activity
+----------------------------------------------------------
+1. Edit /res/layout/main.xml - to add a MapView
 
 Delete:
 
@@ -116,9 +120,9 @@ http://developer.android.com/reference/android/app/Activity.html
 onCreate, onPause and onResume are the most important methods to an Activity
 
 Run... on both 2.1 and 4.0.3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Checkpoint 3 - Adjust the ActionBar to improve the UI of the app and add final tweaks for hardware acceleration and different screen sizes
 
+Checkpoint 3 - Adjusting the ActionBar to improve the UI of the app and add final tweaks for hardware acceleration and different screen sizes
+---------------------------------------------------------------------------------------------------------------------------------------------
 Adding a see through black overlay actionbar and a find my location icon:
 1. Create a my location icon for all screen densities at:
 http://code.google.com/p/android-ui-utils/
