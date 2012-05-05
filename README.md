@@ -5,8 +5,9 @@ Last Edited 05/05/2012
 
 
 PROJECT: Hello Mudroid								
-AIM: To create an Android app that shows a map with the function of finding the users location and that uses the actionbar design Pattern.
-COMPATIBLE Android versions: 2.1 -> 4.0.3 (which is sdk version 7 -> 15)
+AIM: To create an Android App that looks the same on a phone and tablet and displays a map that has a zoom in on my location feature that uses the Actionbar Design Pattern. http://developer.android.com/design/patterns/actionbar.html
+
+COMPATIBLE Android versions: 2.1 to 4.0.3 (which is sdk version 7 to 15)
 ![](https://lh5.googleusercontent.com/-EuR0lCDA1TY/T6ScGKYYBNI/AAAAAAAAGJM/nqk7ra56sX8/s800/Screenshot_2012-03-29-13-18-43.png "Tablet and Phone")
 Preparation
 -----------
