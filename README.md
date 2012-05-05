@@ -8,7 +8,7 @@ PROJECT: Hello Mudroid
 AIM: To create an Android app that shows a map with the function of finding the users location and that uses the actionbar design Pattern.
 COMPATIBLE Android versions: 2.1 -> 4.0.3 (which is sdk version 7 -> 15)
 
-![](https://lh3.googleusercontent.com/-GDk-sOxFtZI/T6SW9CkunUI/AAAAAAAAGIs/05uGk_uuyEA/s800/Screenshot_2012-03-29-13-12-37.png "Phone")
+![](https://lh3.googleusercontent.com/-GDk-sOxFtZI/T6SW9CkunUI/AAAAAAAAGIs/05uGk_uuyEA/s800/Screenshot_2012-03-29-13-12-37.png "Phone")![](https://lh6.googleusercontent.com/-sSdOQhSW37s/T6SW9auYkcI/AAAAAAAAGIw/GuW-E1_mqQg/s800/Screenshot_2012-03-29-13-18-43.png "Tablet")
 
 Preparation
 -----------
