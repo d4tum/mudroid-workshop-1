@@ -1,7 +1,7 @@
 mudroid-workshop-1
 ==================
 Created by Matthew Browne for Mudroid, the Monash University Android Community
-Last Edited 24/03/2012 
+Last Edited 05/05/2012 
 
 
 PROJECT: Hello Mudroid								
@@ -10,8 +10,8 @@ COMPATIBLE Android versions: 2.1 -> 4.0.3 (which is sdk version 7 -> 15)
 
 Preparation
 -----------
-- Setup Eclipse IDE and ADT plugin http://developer.android.com/sdk/eclipse-adt.html
-- Through the Android SDK Manager in the menu bar in Eclipse install under:
+* Setup Eclipse IDE and ADT plugin http://developer.android.com/sdk/eclipse-adt.html
+* Through the Android SDK Manager in the menu bar in Eclipse install under:
 	- Tools:
 		- Android SDK Tools
 		- Android SDK Platform-tools
@@ -48,9 +48,8 @@ Run... on both 2.1 and 4.0.3
 
 Checkpoint 1 - adding the actionbar design pattern (using ActionBarSherlock - ABS)
 ----------------------------------------------------------------------------------
-ABS allows for a consistent UI from sdk 7 -> 15:
-http://actionbarsherlock.com/index.html
-Download the ABS 4.0 zip from the home page. 
+ABS allows for a consistent UI from sdk 7 -> 15: 
+Download the ABS 4.0 zip from the home page http://actionbarsherlock.com/index.html
 Click More... to get the maps jar plugin, we'll need this for our map.
 Unzip the 4.0 zip, maybe in documents so you have permission to access it.
 At the site you'll also find sample apks, apps, a FAQ, usage tips and a link to the google group for support etc.
@@ -132,8 +131,8 @@ Run... on both 2.1 and 4.0.3
 Checkpoint 3 - Adjusting the ActionBar to improve the UI of the app and add final tweaks for hardware acceleration and different screen sizes
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Adding a see through black overlay actionbar and a find my location icon:
-1. Create a my location icon for all screen densities at:
-http://code.google.com/p/android-ui-utils/
+
+1. Create a my location icon for all screen densities at: http://code.google.com/p/android-ui-utils/
 2. Move the icons to their correct folders under the /res folder
 3. Create a new folder "menu" under /res
 4. Right click in menu folder and create a new file "action_items.xml"
@@ -146,12 +145,12 @@ http://code.google.com/p/android-ui-utils/
 
 Run... on both 2.1 and 4.0.3
 
-Now we'll change the actionbar to be semi-transparent
+Now we'll change the actionbar to be semi-transparent:
+
 7. Create a new file in /values named "colors.xml"
 8. Add the color for the semi-transparent actionbar
 9. Go back to HelloMudroidActivity.java and change onCreate to implement this new color for ABS
-10. Lastly make the app use hw accel for 3.0+ and comapible with all types of screen sizes
-by adding to AndroidManifest.xml:
+10. Lastly make the app use hw accel for 3.0+ and comapible with all types of screen sizes by adding to AndroidManifest.xml:
 
 ```xml
 <supports-screens
@@ -162,10 +161,11 @@ by adding to AndroidManifest.xml:
     android:xlargeScreens="true" />
 ```
 
-within the manifest node
-and within the application tag:
+, within the manifest node and within the application tag:
 
+```xml
 android:hardwareAccelerated="true"
+```
 
 The tutorial is now complete.
 Run... on both 2.1 and 4.0.3 and enjoy your first Android app :-)
